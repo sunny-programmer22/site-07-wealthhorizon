@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WealthHorizon | Personal Finance, Passive Income & Smart Investing</title>
+  <meta name="description" content="Master your personal finances, unlock scalable passive income streams, and build generational wealth with our compound interest calculator, index fund roadmaps, and high-yield savings comparisons.">
+  <meta name="keywords" content="compound interest calculator, passive income, personal finance, index funds, high yield savings account, HYSA, side hustles, investing 101, dividend growth">
+  
+  <!-- Favicon icon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📈</text></svg>">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- HilltopAds Monetization Architecture -->
+  <script src="ads-config.js" defer></script>
+</head>
+<body>
+
+  <!-- ========================================================================
+       TOP REAL-TIME FINTECH MARKET TICKER & AD SUITE STATUS
+       ======================================================================== -->
+  <aside class="market-ticker-bar" aria-label="Real-time Financial Indicators">
+    <div class="container ticker-inner">
+      <div class="ticker-items">
+        <span class="ticker-badge-live"><span class="live-pulse"></span> Markets Live</span>
+        <div class="ticker-item">
+          <span class="ticker-symbol">S&amp;P 500:</span>
+          <span class="ticker-val ticker-gain">5,864.67 (+0.82%)</span>
+        </div>
+        <div class="ticker-item">
+          <span class="ticker-symbol">NASDAQ:</span>
+          <span class="ticker-val ticker-gain">18,518.61 (+1.14%)</span>
+        </div>
+        <div class="ticker-item">
+          <span class="ticker-symbol">10-YR TREASURY:</span>
+          <span class="ticker-val ticker-yield">4.24% (+0.03)</span>
+        </div>
+        <div class="ticker-item">
+          <span class="ticker-symbol">FED FUNDS:</span>
+          <span class="ticker-val">4.75% - 5.00%</span>
+        </div>
+        <div class="ticker-item">
+          <span class="ticker-symbol">TOP HYSA APY:</span>
+          <span class="ticker-val ticker-yield">5.15% APY</span>
+        </div>
+        <div class="ticker-item">
+          <span class="ticker-symbol">GOLD (XAU):</span>
+          <span class="ticker-val ticker-gain">$2,735.40/oz</span>
+        </div>
+      </div>
+      <div class="ticker-tools">
+        <button class="ticker-ad-switch" id="ticker-monetization-btn" title="View HilltopAds Integration Hub">
+          ⚡ HilltopAds Ready (6 Zones)
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ========================================================================
+       HEADER & NAVIGATION
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="container navbar-container">
+      <a href="#" class="brand-logo" aria-label="WealthHorizon Home">
+        <div class="brand-icon-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+            <polyline points="16 7 22 7 22 13"></polyline>
+          </svg>
+        </div>
+        <div>
+          <span class="brand-name">Wealth<span class="brand-highlight">Horizon</span></span>
+          <span class="brand-tagline">Compound Your Future</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-menu" id="primary-nav-menu">
+          <li><a href="#calculator" class="nav-link">Compound Calculator</a></li>
+          <li><a href="#side-hustles" class="nav-link">Side Hustle Guides</a></li>
+          <li><a href="#investing-fundamentals" class="nav-link">Stock Fundamentals</a></li>
+          <li><a href="#hysa-comparison" class="nav-link">High-Yield Savings</a></li>
+          <li><a href="#masterclass" class="nav-link">Masterclass Video</a></li>
+        </ul>
+      </nav>
+
+      <!-- Monetized Header CTA Buttons (Zone 5 Direct Link) -->
+      <div class="nav-actions">
+        <a href="#calculator" class="btn-header-cta btn-budget-sheet smartlink-cta" data-ad-action="direct-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          Free Budget Sheet
+        </a>
+        <button class="mobile-menu-toggle" id="mobile-menu-btn" aria-label="Toggle navigation menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       HILLTOPADS ZONE 3A: HEADER LEADERBOARD BANNER (728x90)
+       ======================================================================== -->
+  <div class="ad-slot-header-wrapper">
+    <div class="container ad-zone-container" id="ad-zone-header-728x90">
+      <!-- In production, ads-config.js injects the live HilltopAds 728x90 MultiTag script here -->
+      <!-- Fallback / Demo visual placeholder rendered dynamically if in demo mode -->
+    </div>
+  </div>
+
+  <main>
+    <!-- ======================================================================
+         HERO SECTION: Accelerated Financial Independence & Compounding
+         ====================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge-pill">
+            <span>✨</span> Automated Wealth Architecture &bull; 2026 Edition
+          </div>
+          <h1 class="hero-title">
+            Build Generational Wealth Through <span class="text-gradient-gold">Strategic Compounding</span> &amp; Passive Cashflow
+          </h1>
+          <p class="hero-description">
+            Demystify investing, eliminate wealth-eroding fees, and build scalable automated income streams. Calculate your compound growth trajectory, compare top high-yield cash reserves, and start your financial independence roadmap today.
+          </p>
+
+          <div class="hero-cta-group">
+            <button class="btn-primary-fintech btn-budget-sheet smartlink-cta" data-ad-action="direct-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+              Download Free Budgeting Sheet
+            </button>
+            <a href="#hysa-comparison" class="btn-secondary-fintech btn-compare-brokerages smartlink-cta" data-ad-action="direct-link">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+              Compare Brokerages &amp; Rates
+            </a>
+          </div>
+
+          <div class="hero-trust-bar">
+            <div class="trust-item">
+              <span class="trust-number">$48.5M+</span>
+              <span class="trust-label">Wealth Modelled</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-number">142,000+</span>
+              <span class="trust-label">Active Readers</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-number">9.8%</span>
+              <span class="trust-label">Avg. Index Benchmark</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-number">100%</span>
+              <span class="trust-label">Independent Research</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right: Interactive Portfolio Projection Card -->
+        <div class="hero-card-preview">
+          <div class="card-top-tag">
+            <span class="card-title-sm">Portfolio Projection (30 Yrs)</span>
+            <span class="growth-pill">▲ 10.2% Ann. Return</span>
+          </div>
+          <div class="card-metric-huge" id="hero-display-balance">$1,382,419</div>
+          <div class="card-metric-sub">Projected balance at $500/mo deposit with broad index compounding</div>
+
+          <div class="hero-mini-stats">
+            <div class="mini-stat-box">
+              <span class="mini-stat-lbl">Your Total Deposits</span>
+              <span class="mini-stat-val">$180,000</span>
+            </div>
+            <div class="mini-stat-box">
+              <span class="mini-stat-lbl">Pure Compound Growth</span>
+              <span class="mini-stat-val" style="color: var(--emerald-400);">$1,202,419</span>
+            </div>
+          </div>
+
+          <a href="#calculator" class="card-direct-link-btn smartlink-cta" data-ad-action="direct-link">
+            Launch Full Interactive Calculator &rarr;
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 1: COMPOUND INTEREST & WEALTH GROWTH CALCULATOR
+         With HilltopAds Zone 3B: Sidebar 300x250 Banner
+         ====================================================================== -->
+    <section class="section-padding calculator-section" id="calculator">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-pill-tag">Financial Engine</span>
+          <h2 class="section-heading">Interactive Compound Interest Calculator</h2>
+          <p class="section-subtext">
+            Albert Einstein famously dubbed compound interest the eighth wonder of the world. Adjust your initial nest egg, ongoing monthly contributions, and time horizon to see your exponential wealth accumulation curve in real time.
+          </p>
+        </div>
+
+        <div class="calculator-layout">
+          <!-- Main Calculator Card -->
+          <div class="calculator-main-card">
+            <div class="calc-grid-inner">
+              <!-- Inputs Column -->
+              <div class="calc-inputs-pane">
+                <h3 class="calc-pane-title">Configure Parameters</h3>
+                <p class="calc-pane-sub">Slide or type your numbers to simulate returns</p>
+
+                <!-- Initial Deposit -->
+                <div class="calc-form-group">
+                  <div class="calc-label-row">
+                    <label for="input-principal" class="calc-label">Initial Investment</label>
+                    <span class="calc-value-display" id="display-principal">$10,000</span>
+                  </div>
+                  <div class="input-slider-wrap">
+                    <input type="range" class="calc-slider" id="input-principal" min="0" max="100000" step="500" value="10000">
+                  </div>
+                </div>
+
+                <!-- Monthly Contribution -->
+                <div class="calc-form-group">
+                  <div class="calc-label-row">
+                    <label for="input-monthly" class="calc-label">Monthly Contribution</label>
+                    <span class="calc-value-display" id="display-monthly">$500/mo</span>
+                  </div>
+                  <div class="input-slider-wrap">
+                    <input type="range" class="calc-slider" id="input-monthly" min="0" max="5000" step="50" value="500">
+                  </div>
+                </div>
+
+                <!-- Interest Rate -->
+                <div class="calc-form-group">
+                  <div class="calc-label-row">
+                    <label for="input-rate" class="calc-label">Estimated Annual Return (APY / %)</label>
+                    <span class="calc-value-display" id="display-rate">8.0%</span>
+                  </div>
+                  <div class="input-slider-wrap">
+                    <input type="range" class="calc-slider" id="input-rate" min="1" max="16" step="0.25" value="8.0">
+                  </div>
+                  <div class="rate-presets">
+                    <button class="preset-btn" data-rate="4.8">HYSA (4.8%)</button>
+                    <button class="preset-btn" data-rate="7.0">Bonds (7.0%)</button>
+                    <button class="preset-btn active" data-rate="8.0">S&amp;P Avg (8.0%)</button>
+                    <button class="preset-btn" data-rate="10.5">Aggressive (10.5%)</button>
+                  </div>
+                </div>
+
+                <!-- Investment Horizon (Years) -->
+                <div class="calc-form-group">
+                  <div class="calc-label-row">
+                    <label for="input-years" class="calc-label">Investment Horizon</label>
+                    <span class="calc-value-display" id="display-years">25 Years</span>
+                  </div>
+                  <div class="input-slider-wrap">
+                    <input type="range" class="calc-slider" id="input-years" min="1" max="45" step="1" value="25">
+                  </div>
+                </div>
+
+                <!-- Compound Frequency -->
+                <div class="calc-form-group">
+                  <label for="input-frequency" class="calc-label" style="display:block; margin-bottom: 8px;">Compounding Frequency</label>
+                  <select class="calc-select" id="input-frequency">
+                    <option value="12" selected>Monthly Compounding (Standard)</option>
+                    <option value="365">Daily Compounding (HYSA style)</option>
+                    <option value="4">Quarterly Compounding</option>
+                    <option value="1">Annually Compounding</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Results & Dynamic Chart Column -->
+              <div class="calc-results-pane">
+                <div>
+                  <div class="results-top-block">
+                    <span class="results-eyebrow">Estimated Future Portfolio Value</span>
+                    <div class="results-balance" id="calc-final-balance">$483,184</div>
+                    <div class="results-summary-strip" id="calc-summary-stat">
+                      <span class="live-pulse"></span>
+                      <span>Growth factor: <strong>3.02x</strong> your total out-of-pocket deposits</span>
+                    </div>
+                  </div>
+
+                  <!-- Dynamic Visual Canvas Chart -->
+                  <div class="chart-container-box">
+                    <div class="chart-header-row">
+                      <span class="chart-title-tag">Growth Trajectory</span>
+                      <div class="chart-legend">
+                        <span><span class="legend-dot dot-principal"></span> Deposits</span>
+                        <span><span class="legend-dot dot-interest"></span> Compound Interest</span>
+                      </div>
+                    </div>
+                    <canvas id="compound-chart-canvas" width="460" height="190"></canvas>
+                  </div>
+
+                  <!-- Principal vs Interest Breakdown -->
+                  <div class="results-breakdown-row">
+                    <div class="breakdown-box box-principal">
+                      <span class="breakdown-lbl">Total Principal Deposited</span>
+                      <span class="breakdown-val" id="calc-total-deposits">$160,000</span>
+                    </div>
+                    <div class="breakdown-box box-interest">
+                      <span class="breakdown-lbl">Total Compound Interest</span>
+                      <span class="breakdown-val" id="calc-total-interest">$323,184</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div style="margin-top: 20px;">
+                  <button class="btn-card-action smartlink-cta btn-compare-brokerages" data-ad-action="direct-link">
+                    Compare High-Return Brokerages For This Plan &rarr;
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Yearly Amortization Table Accordion -->
+            <div class="calc-table-toggle-wrap">
+              <span style="font-size: 0.85rem; color: var(--text-muted);">Want to see the year-by-year mathematical breakdown?</span>
+              <button class="btn-toggle-table" id="toggle-table-btn">
+                <span>View Full Amortization Table</span>
+                <span id="table-arrow-icon">▼</span>
+              </button>
+            </div>
+            <div class="calc-amortization-table-wrap" id="amortization-table-wrap">
+              <table class="calc-amortization-table">
+                <thead>
+                  <tr>
+                    <th>Year</th>
+                    <th>Annual Deposits</th>
+                    <th>Cumulative Deposits</th>
+                    <th>Annual Interest</th>
+                    <th>Ending Balance</th>
+                  </tr>
+                </thead>
+                <tbody id="amortization-table-body">
+                  <!-- Populated by JavaScript -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Calculator Sidebar with HilltopAds Zone 3B -->
+          <aside class="calculator-sidebar">
+            <!-- ZONE 3B: MULTITAG 300x250 SIDEBAR BANNER -->
+            <div class="ad-zone-container" id="ad-zone-sidebar-300x250">
+              <!-- HilltopAds MultiTag Banner script loaded or fallback shown -->
+            </div>
+
+            <!-- FinTech Rule of 72 Card -->
+            <div class="sidebar-fintech-card">
+              <div class="card-label-gold">
+                <span>⚡</span> The "Rule of 72" Shortcut
+              </div>
+              <h4 style="font-size: 0.98rem; font-weight: 800; color: var(--navy-900); margin-bottom: 6px;">How Fast Does Money Double?</h4>
+              <p class="rule-desc">
+                Divide <strong>72</strong> by your annual interest rate to find the exact number of years it takes for your investment to double without any additional deposits:
+              </p>
+              <div class="rule-formula-box">
+                Years to Double = 72 / Return %
+              </div>
+              <p class="rule-desc">
+                At an <strong>8% S&amp;P 500</strong> average return, your money doubles every <strong>9.0 years</strong>. At <strong>10%</strong>, it doubles every <strong>7.2 years</strong>!
+              </p>
+            </div>
+
+            <!-- Safe Withdrawal Card -->
+            <div class="sidebar-fintech-card">
+              <div class="card-label-gold">
+                <span>🛡️</span> The 4% Rule For Early Retirement
+              </div>
+              <p class="rule-desc">
+                Based on the landmark Trinity Study, you can safely withdraw <strong>4%</strong> of your total invested portfolio in year one of retirement (adjusted for inflation thereafter) with a 95%+ probability of never depleting your capital over 30 years.
+              </p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 2: SIDE HUSTLE & PASSIVE INCOME BLUEPRINTS
+         ====================================================================== -->
+    <section class="section-padding sidehustles-section" id="side-hustles">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-pill-tag">Cash Flow Systems</span>
+          <h2 class="section-heading">6 High-Value Side Hustle &amp; Passive Income Blueprints</h2>
+          <p class="section-subtext">
+            Trading hours for dollars has a hard ceiling. True financial acceleration happens when you decouple your income from time by building assets that compound 24/7.
+          </p>
+        </div>
+
+        <div class="sidehustle-grid">
+          <!-- Card 1: Dividend Growth Portfolio -->
+          <article class="sidehustle-card">
+            <div class="sidehustle-top">
+              <div class="sidehustle-header-row">
+                <div class="sidehustle-icon">💰</div>
+                <span class="badge-potential">$500 - $5,000+/mo</span>
+              </div>
+              <h3 class="sidehustle-title">Dividend Growth Portfolio</h3>
+              <p class="sidehustle-desc">
+                Invest in Dividend Aristocrats—companies with 25+ consecutive years of increasing payouts. Leverage automated DRIP (Dividend Reinvestment Plans) to explode your yield on cost.
+              </p>
+
+              <div class="metric-meters-list">
+                <div class="meter-item">
+                  <span class="meter-lbl">Passive Score:</span>
+                  <span class="meter-val high">98% (Fully Hands-Off)</span>
+                </div>
+                <div class="meter-item">
+                  <span class="meter-lbl">Startup Capital:</span>
+                  <span class="meter-val">$100 - $1,000</span>
+                </div>
+                <div class="meter-item">
+                  <span class="meter-lbl">Time to Profit:</span>
+                  <span class="meter-val">1 - 3 Months</span>
+                </div>
+              </div>
+
+              <ul class="hustle-steps-list">
+                <li>Target low payout ratio stocks (&lt;60%)</li>
+                <li>Screen for SCHD, VYM, and Dividend Kings</li>
+                <li>Reinvest all quarterly payouts automatically</li>
+              </ul>
+            </div>
+
+            <button class="btn-card-action smartlink-cta btn-sidehustle-action" data-ad-action="direct-link">
+              Read Dividend Blueprint &rarr;
+            </button>
+          </article>
+
+          <!-- Card 2: Digital Knowledge Assets & Templates -->
+          <article class="sidehustle-card">
+            <div class="sidehustle-top">
+              <div class="sidehustle-header-row">
+                <div class="sidehustle-icon">📊</div>
+                <span class="badge-potential">$1,200 - $8,500/mo</span>
+              </div>
+              <h3 class="sidehustle-title">Financial Templates &amp; Notion Hubs</h3>
+              <p class="sidehustle-desc">
+                Build it once, sell it infinitely. Create premium budgeting spreadsheets, automated dividend trackers, and financial independence calculators on Gumroad and Etsy.
+              </p>
+
+              <div class="metric-meters-list">
+                <div class="meter-item">
+                  <span class="meter-lbl">Passive Score:</span>
+                  <span class="meter-val high">85% (Digital Delivery)</span>
+                </div>
+                <div class="meter-item">
+                  <span class="meter-lbl">Startup Capital:</span>
+                  <span class="meter-val low">$0 (Free Software)</span>
+                </div>
+                <div class="meter-item">
+                  <span class="meter-lbl">Time to Profit:</span>
+                  <span class="meter-val">2 - 4 Weeks</span>
+                </div>
+              </div>
+
+              <ul class="hustle-steps-list">
+                <li>Design Google Sheets automated net worth dashboards</li>
+                <li>Package with video tutorial walkthroughs</li>
+                <li>Drive organic traffic via TikTok &amp; Reddit finance subs</li>
+              </ul>
+            </div>
+
+            <button class="btn-card-action smartlink-cta btn-sidehustle-action" data-ad-action="direct-link">
+              View Digital Asset Kit &rarr;
+            </button>
+          </article>
+
+          <!-- Card 3: Real Estate Debt Crowdfunding -->
+          <article class="sidehustle-card">
+            <div class="sidehustle-top">
+              <div class="sidehustle-header-row">
+                <div class="sidehustle-icon">🏢</div>
+                <span class="badge-potential">8.5% - 12% Annual Yield</span>
+              </div>
+              <h3 class="sidehustle-title">Fractional Real Estate &amp; Debt Funds</h3>
+              <p class="sidehustle-desc">
+                Access commercial property and residential bridge loans without the headaches of managing tenants, toilets, or maintenance calls. Earn monthly cash dividends secured by physical real estate.
+              </p>
+
+              <div class="metric-meters-list">
+                <div class="meter-item">
+                  <span class="meter-lbl">Passive Score:</span>
+                  <span class="meter-val high">95% (Automated Distribution)</span>
+                </div>
+                <div class="meter-item">
+                  <span class="meter-lbl">Startup Capital:</span>
+                  <span class="meter-val">$500+</span>
+                </div>
+                <div class="meter-item">
+                  <span class="meter-lbl">Risk Profile:</span>
+                  <span class="meter-val">Moderate (Asset-Backed)</span>
+                </div>
+              </div>
+
+              <ul class="hustle-steps-list">
+                <li>Diversify across multi-family &amp; industrial properties</li>
+                <li>Verify senior debt position for safety</li>
+                <li>Collect monthly ACH dividend deposits</li>
+              </ul>
+            </div>
+
+            <button class="btn-card-action smartlink-cta btn-sidehustle-action" data-ad-action="direct-link">
+              Compare Real Estate Platforms &rarr;
+            </button>
+          </article>
+
+          <!-- Card 4: Automated Niche Finance Newsletter -->
+          <article class="sidehustle-card">
+            <div class="sidehustle-top">
+              <div class="sidehustle-header-row">
+                <div class="sidehustle-icon">📬</div>
+                <span class="badge-potential">$2,000 - $15,000/mo</span>
+              </div>
+              <h3 class="sidehustle-title">Curated FinTech Newsletter</h3>
+              <p class="sidehustle-desc">
+                Monetize subscribers through premium sponsorships, affiliate commissions on brokerage signups, and classified ads. Finance audiences boast the highest CPM rates in digital media ($40-$80+ CPM).
+              </p>
+
+              <div class="metric-meters-list">
+                <div class="meter-item">
+                  <span class="meter-lbl">Passive Score:</span>
+                  <span class="meter-val">65% (Weekly Curation)</span>
+                </div>
+                <div class="meter-item">
+                  <span class="meter-lbl">Startup Capital:</span>
+                  <span class="meter-val low">$0 (Beehiiv / Substack)</span>
+                </div>
+                <div class="meter-item">
+                  <span class="meter-lbl">Time to Profit:</span>
+                  <span class="meter-val">3 - 6 Months</span>
+                </div>
+              </div>
+
+              <ul class="hustle-steps-list">
+                <li>Focus on specific micro-niches (e.g., REITs, Tech IPOs)</li>
+                <li>Publish 1 high-signal breakdown every week</li>
+                <li>Monetize with programmatic ad networks like HilltopAds</li>
+              </ul>
+            </div>
+
+            <button class="btn-card-action smartlink-cta btn-sidehustle-action" data-ad-action="direct-link">
+              Get Newsletter Launch Guide &rarr;
+            </button>
+          </article>
+
+          <!-- Card 5: High-Yield Cash Arbitrage -->
+          <article class="sidehustle-card">
+            <div class="sidehustle-top">
+              <div class="sidehustle-header-row">
+                <div class="sidehustle-icon">🏦</div>
+                <span class="badge-potential">5.0% - 6.5% Risk-Free</span>
+              </div>
+              <h3 class="sidehustle-title">Cash &amp; Treasury Arbitrage</h3>
+              <p class="sidehustle-desc">
+                Keep your emergency fund and dry powder earning institutional yields using short-term US Treasury bills (4-week T-Bills) and high-yield FDIC sweep networks with state tax exemptions.
+              </p>
+
+              <div class="metric-meters-list">
+                <div class="meter-item">
+                  <span class="meter-lbl">Passive Score:</span>
+                  <span class="meter-val high">100% (Zero Effort)</span>
+                </div>
+                <div class="meter-item">
+                  <span class="meter-lbl">Capital Needed:</span>
+                  <span class="meter-val">Any Amount ($100+)</span>
+                </div>
+                <div class="meter-item">
+                  <span class="meter-lbl">Safety Rating:</span>
+                  <span class="meter-val high">AAA (US Govt / FDIC)</span>
+                </div>
+              </div>
+
+              <ul class="hustle-steps-list">
+                <li>Automate rolling 4-week Treasury bill auctions</li>
+                <li>Exempt returns from state and local income taxes</li>
+                <li>Compound risk-free yield with zero principal drawdown</li>
+              </ul>
+            </div>
+
+            <button class="btn-card-action smartlink-cta btn-sidehustle-action" data-ad-action="direct-link">
+              Explore Cash Strategies &rarr;
+            </button>
+          </article>
+
+          <!-- Card 6: Micro-SaaS & Automation Tools -->
+          <article class="sidehustle-card">
+            <div class="sidehustle-top">
+              <div class="sidehustle-header-row">
+                <div class="sidehustle-icon">⚙️</div>
+                <span class="badge-potential">$3,000 - $20,000/mo</span>
+              </div>
+              <h3 class="sidehustle-title">No-Code FinTech Micro-Tools</h3>
+              <p class="sidehustle-desc">
+                Build simple recurring tools like automated invoice factoring alerts, crypto tax estimators, or expense-ratio fee calculators using no-code platforms and AI code generators.
+              </p>
+
+              <div class="metric-meters-list">
+                <div class="meter-item">
+                  <span class="meter-lbl">Passive Score:</span>
+                  <span class="meter-val">80% (Recurring MRR)</span>
+                </div>
+                <div class="meter-item">
+                  <span class="meter-lbl">Startup Capital:</span>
+                  <span class="meter-val">$50 - $200</span>
+                </div>
+                <div class="meter-item">
+                  <span class="meter-lbl">Time to Profit:</span>
+                  <span class="meter-val">1 - 2 Months</span>
+                </div>
+              </div>
+
+              <ul class="hustle-steps-list">
+                <li>Solve one painful finance workflow problem</li>
+                <li>Charge $9 - $29/mo subscription fee</li>
+                <li>Integrate Stripe Billing for automated recurring revenue</li>
+              </ul>
+            </div>
+
+            <button class="btn-card-action smartlink-cta btn-sidehustle-action" data-ad-action="direct-link">
+              View Micro-SaaS Blueprint &rarr;
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 3: STOCK & INDEX FUND FUNDAMENTALS
+         ====================================================================== -->
+    <section class="section-padding stocks-section" id="investing-fundamentals">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-pill-tag">Evidence-Based Investing</span>
+          <h2 class="section-heading">Stock &amp; Index Fund Fundamentals</h2>
+          <p class="section-subtext">
+            Over 92% of actively managed mutual funds fail to beat the S&amp;P 500 over a 15-year period after accounting for fees. Learn the fundamental principles that generate dependable long-term market wealth.
+          </p>
+        </div>
+
+        <div class="investing-pillars-grid">
+          <div class="pillar-card">
+            <span class="pillar-number">01</span>
+            <span class="pillar-tag">Diversification</span>
+            <h3 class="pillar-title">Total Market Indexing</h3>
+            <p class="pillar-text">
+              Instead of attempting to find the needle in the haystack, buy the entire haystack. Low-cost index funds like <strong>VOO (S&amp;P 500)</strong> or <strong>VTI (Total US Stock)</strong> grant instant ownership in thousands of profitable businesses.
+            </p>
+            <div class="pillar-highlight-box">
+              Historical Return: ~10.2% annualized nominal over the last 50 years.
+            </div>
+          </div>
+
+          <div class="pillar-card">
+            <span class="pillar-number">02</span>
+            <span class="pillar-tag">Risk Elimination</span>
+            <h3 class="pillar-title">Dollar-Cost Averaging (DCA)</h3>
+            <p class="pillar-text">
+              Trying to time market bottoms is a proven losing strategy. Dollar-cost averaging invests a fixed dollar amount at regular intervals (e.g. 1st of every month), systematically buying more shares when prices dip and fewer when prices rise.
+            </p>
+            <div class="pillar-highlight-box">
+              Key Rule: Time in the market always beats timing the market.
+            </div>
+          </div>
+
+          <div class="pillar-card">
+            <span class="pillar-number">03</span>
+            <span class="pillar-tag">Wealth Protection</span>
+            <h3 class="pillar-title">Minimizing Expense Ratios</h3>
+            <p class="pillar-text">
+              A seemingly small 1.0% advisor or mutual fund management fee consumes up to <strong>30% of your lifetime retirement wealth</strong> over 35 years due to lost compounding. Always prioritize ultra-low expense ratios (&lt;0.05%).
+            </p>
+            <div class="pillar-highlight-box">
+              Vanguard VOO fee: 0.03% ($3/yr per $10,000 invested).
+            </div>
+          </div>
+        </div>
+
+        <!-- The Boglehead 3-Fund Portfolio -->
+        <div class="boglehead-card">
+          <div class="boglehead-header">
+            <h3 class="boglehead-title">The Legendary "Boglehead 3-Fund Portfolio"</h3>
+            <p class="boglehead-sub">
+              Created by Vanguard founder John C. Bogle, this elegant asset allocation model covers virtually every investable company and high-grade bond on earth with rock-bottom fees.
+            </p>
+          </div>
+
+          <div class="boglehead-alloc-grid">
+            <div class="alloc-item">
+              <div class="alloc-percent">60%</div>
+              <div class="alloc-ticker">VTI / VOO</div>
+              <div class="alloc-name">Total U.S. Stock Market</div>
+              <div class="alloc-exp">Expense Ratio: 0.03%</div>
+            </div>
+
+            <div class="alloc-item">
+              <div class="alloc-percent">25%</div>
+              <div class="alloc-ticker">VXUS</div>
+              <div class="alloc-name">Total International Stock Market</div>
+              <div class="alloc-exp">Expense Ratio: 0.07%</div>
+            </div>
+
+            <div class="alloc-item">
+              <div class="alloc-percent">15%</div>
+              <div class="alloc-ticker">BND</div>
+              <div class="alloc-name">Total U.S. Aggregate Bond Fund</div>
+              <div class="alloc-exp">Expense Ratio: 0.03%</div>
+            </div>
+          </div>
+
+          <div class="boglehead-bottom-bar">
+            <p class="boglehead-tip">
+              <strong>Asset Rebalancing:</strong> Review your allocation once every 12 months. Sell the top-performing asset to buy underperforming tranches back to target ratios without emotion.
+            </p>
+            <button class="btn-primary-fintech smartlink-cta btn-compare-brokerages" data-ad-action="direct-link">
+              Compare 0% Commission Brokerages &rarr;
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 4: HIGH-YIELD SAVINGS ACCOUNTS (HYSA) COMPARISON
+         ====================================================================== -->
+    <section class="section-padding hysa-section" id="hysa-comparison">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-pill-tag">Maximize Safe Cash</span>
+          <h2 class="section-heading">2026 High-Yield Savings Accounts (HYSA) Comparison</h2>
+          <p class="section-subtext">
+            Traditional brick-and-mortar mega-banks still pay an insulting 0.01% APY on savings. Moving your emergency reserves to a modern FDIC-insured high-yield account puts hundreds of dollars of passive interest in your pocket every month.
+          </p>
+        </div>
+
+        <div class="hysa-table-container">
+          <table class="fintech-data-table">
+            <thead>
+              <tr>
+                <th>Financial Institution</th>
+                <th>Annual Yield (APY)</th>
+                <th>Minimum Deposit</th>
+                <th>FDIC Insurance</th>
+                <th>Top Features &amp; Perks</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Row 1 -->
+              <tr>
+                <td>
+                  <div class="table-bank-col">
+                    <div class="bank-logo-icon">WH</div>
+                    <div class="bank-info">
+                      <span class="bank-name">WealthHorizon Cash Sweep</span>
+                      <span class="bank-tag">Featured Top Pick</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <span class="apy-rate-badge">5.25% APY</span>
+                </td>
+                <td><strong>$0</strong> (No Min)</td>
+                <td>
+                  <span class="badge-tag-fdic">FDIC up to $2.5M</span>
+                </td>
+                <td>Automated daily compounding, zero wire fees, unlimited transfers.</td>
+                <td>
+                  <button class="btn-table-cta smartlink-cta btn-hysa-cta" data-ad-action="direct-link">
+                    Open Account &rarr;
+                  </button>
+                </td>
+              </tr>
+
+              <!-- Row 2 -->
+              <tr>
+                <td>
+                  <div class="table-bank-col">
+                    <div class="bank-logo-icon" style="background:#1e3a8a; color:#ffffff;">GS</div>
+                    <div class="bank-info">
+                      <span class="bank-name">Marcus by Goldman Sachs</span>
+                      <span class="bank-tag">Tier-1 Investment Bank</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <span class="apy-rate-badge">4.90% APY</span>
+                </td>
+                <td><strong>$0</strong></td>
+                <td>
+                  <span class="badge-tag-fdic">FDIC $250k</span>
+                </td>
+                <td>No monthly fees, excellent mobile app, same-day transfers up to $100k.</td>
+                <td>
+                  <button class="btn-table-cta smartlink-cta btn-hysa-cta" data-ad-action="direct-link">
+                    View Rates &rarr;
+                  </button>
+                </td>
+              </tr>
+
+              <!-- Row 3 -->
+              <tr>
+                <td>
+                  <div class="table-bank-col">
+                    <div class="bank-logo-icon" style="background:#047857; color:#ffffff;">SF</div>
+                    <div class="bank-info">
+                      <span class="bank-name">SoFi Checking &amp; Savings</span>
+                      <span class="bank-tag">High-Volume Direct Deposit</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <span class="apy-rate-badge">4.85% APY</span>
+                </td>
+                <td><strong>$0</strong></td>
+                <td>
+                  <span class="badge-tag-fdic">FDIC up to $2.0M</span>
+                </td>
+                <td>$300 welcome sign-up bonus with qualifying direct deposit, 20 automated vaults.</td>
+                <td>
+                  <button class="btn-table-cta smartlink-cta btn-hysa-cta" data-ad-action="direct-link">
+                    Claim Bonus &rarr;
+                  </button>
+                </td>
+              </tr>
+
+              <!-- Row 4 -->
+              <tr>
+                <td>
+                  <div class="table-bank-col">
+                    <div class="bank-logo-icon" style="background:#6d28d9; color:#ffffff;">AL</div>
+                    <div class="bank-info">
+                      <span class="bank-name">Ally Bank Online Savings</span>
+                      <span class="bank-tag">Best Budgeting Envelopes</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <span class="apy-rate-badge">4.75% APY</span>
+                </td>
+                <td><strong>$0</strong></td>
+                <td>
+                  <span class="badge-tag-fdic">FDIC $250k</span>
+                </td>
+                <td>Smart sub-savings buckets, recurring round-up booster, 24/7 US phone support.</td>
+                <td>
+                  <button class="btn-table-cta smartlink-cta btn-hysa-cta" data-ad-action="direct-link">
+                    Compare Rates &rarr;
+                  </button>
+                </td>
+              </tr>
+
+              <!-- Row 5 -->
+              <tr>
+                <td>
+                  <div class="table-bank-col">
+                    <div class="bank-logo-icon" style="background:#b91c1c; color:#ffffff;">WF</div>
+                    <div class="bank-info">
+                      <span class="bank-name">Wealthfront Cash Account</span>
+                      <span class="bank-tag">Fastest Brokerage Links</span>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                  <span class="apy-rate-badge">5.00% APY</span>
+                </td>
+                <td><strong>$1</strong></td>
+                <td>
+                  <span class="badge-tag-fdic">FDIC up to $8.0M</span>
+                </td>
+                <td>Free same-day investing into index portfolios, automated debit card access.</td>
+                <td>
+                  <button class="btn-table-cta smartlink-cta btn-hysa-cta" data-ad-action="direct-link">
+                    Explore Account &rarr;
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 5: FINANCIAL MASTERCLASS VIDEO SECTION (ZONE 6 VAST INTEGRATED)
+         ====================================================================== -->
+    <section class="section-padding masterclass-section" id="masterclass">
+      <div class="container">
+        <div class="section-header-center">
+          <span class="section-pill-tag">Video Masterclass</span>
+          <h2 class="section-heading" style="color: #ffffff;">How to Build a $1,000/Month Passive Income Engine</h2>
+          <p class="section-subtext" style="color: var(--text-light-muted);">
+            Watch this 18-minute masterclass break down real portfolio allocations, automated rebalancing algorithms, and tax-loss harvesting secrets used by family offices.
+          </p>
+        </div>
+
+        <div class="video-container-wrap">
+          <div class="video-player-wrapper">
+            <!-- HTML5 Video Player -->
+            <video id="fin-masterclass-video" poster="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22900%22 height=%22506%22 viewBox=%220 0 900 506%22><rect width=%22100%25%22 height=%22100%25%22 fill=%22%230a192f%22/><text x=%2250%25%22 y=%2250%25%22 fill=%22%23f59e0b%22 font-family=%22sans-serif%22 font-weight=%22bold%22 font-size=%2228%22 text-anchor=%22middle%22>WealthHorizon Masterclass: $1,000/Mo Passive Income</text></svg>" controls playsinline>
+              <!-- Royalty-free public domain educational test stream -->
+              <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
+            <!-- Video Poster / Play Button Overlay -->
+            <div class="video-custom-overlay" id="vast-play-btn">
+              <div class="play-circle-btn">
+                <div class="play-triangle"></div>
+              </div>
+              <h3 class="video-overlay-title">Click to Start Masterclass (Free HD)</h3>
+              <p class="video-overlay-desc">Integrated with HilltopAds Zone 6 Video VAST Pre-roll</p>
+            </div>
+
+            <!-- HilltopAds Zone 6 Video VAST Overlay Container -->
+            <div class="vast-ad-overlay" id="vast-ad-overlay">
+              <!-- Populated and controlled by ads-config.js initZone6VideoVAST() -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       HILLTOPADS ZONE 2: IN-PAGE PUSH (IPP) MULTITAG CONTAINER
+       ======================================================================== -->
+  <aside class="ad-zone-inpage-push" id="ad-zone-inpage-push" aria-label="FinTech Alert">
+    <!-- Populated by ads-config.js initZone2InPagePush() -->
+  </aside>
+
+  <!-- ========================================================================
+       HILLTOPADS ZONE 4: VIDEO SLIDER MULTITAG CONTAINER
+       ======================================================================== -->
+  <aside class="ad-zone-video-slider" id="ad-zone-video-slider" aria-label="Sponsored FinTech Video">
+    <!-- Populated by ads-config.js initZone4VideoSlider() -->
+  </aside>
+
+  <!-- ========================================================================
+       SITE FOOTER WITH FINTECH & SEC/FINRA DISCLAIMERS
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Pane -->
+        <div class="footer-brand-pane">
+          <a href="#" class="brand-logo" aria-label="WealthHorizon Home">
+            <div class="brand-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+                <polyline points="16 7 22 7 22 13"></polyline>
+              </svg>
+            </div>
+            <div>
+              <span class="brand-name">Wealth<span class="brand-highlight">Horizon</span></span>
+            </div>
+          </a>
+          <p class="footer-brand-desc">
+            Empowering modern wealth builders with independent financial models, compound interest calculators, low-cost indexing education, and actionable passive income blueprints.
+          </p>
+          <div class="ticker-item" style="font-size: 0.8rem; color: var(--gold-400);">
+            <span>⚡ Monetized with HilltopAds Publisher Suite</span>
+          </div>
+        </div>
+
+        <!-- Quick Links: Tools -->
+        <div>
+          <h4 class="footer-title">Financial Calculators</h4>
+          <ul class="footer-links">
+            <li><a href="#calculator">Compound Interest Engine</a></li>
+            <li><a href="#calculator">Rule of 72 Calculator</a></li>
+            <li><a href="#investing-fundamentals">Boglehead 3-Fund Allocator</a></li>
+            <li><a href="#hysa-comparison">HYSA Monthly Interest Matrix</a></li>
+            <li><a href="#calculator" class="smartlink-cta">4% Safe Withdrawal Planner</a></li>
+          </ul>
+        </div>
+
+        <!-- Guides & Strategies -->
+        <div>
+          <h4 class="footer-title">Passive Income Guides</h4>
+          <ul class="footer-links">
+            <li><a href="#side-hustles">Dividend Growth Investing</a></li>
+            <li><a href="#side-hustles">Real Estate Crowdfunding</a></li>
+            <li><a href="#side-hustles">Digital Knowledge Assets</a></li>
+            <li><a href="#side-hustles">Treasury Bill Ladders</a></li>
+            <li><a href="#masterclass">Video Masterclass Archive</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter Subscription -->
+        <div>
+          <h4 class="footer-title">The Horizon Wealth Memo</h4>
+          <p class="footer-newsletter-text">
+            Join 142,000+ investors receiving our weekly Sunday breakdown on high-yield cash moves, index fund rebalancing, and tax efficiency.
+          </p>
+          <form class="footer-newsletter-form" id="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing to The Horizon Wealth Memo!');">
+            <input type="email" class="footer-newsletter-input" placeholder="Your best email address..." required>
+            <button type="submit" class="btn-footer-newsletter">Join</button>
+          </form>
+          <span class="newsletter-disclaimer">Zero spam. Unsubscribe anytime with 1-click.</span>
+        </div>
+      </div>
+
+      <!-- Legal & Regulatory Financial Disclaimers -->
+      <div class="footer-disclaimer-box">
+        <strong>IMPORTANT REGULATORY &amp; FINANCIAL DISCLAIMER:</strong> WealthHorizon is an independent educational and research media platform. The content, interactive calculators, charts, and materials provided on this website are for educational and informational purposes only and do not constitute financial, investment, legal, or tax advice. We are not a registered investment advisor, broker-dealer, or registered representative under FINRA or the U.S. Securities and Exchange Commission (SEC). All investments involve substantial risk of loss, including the possible loss of principal. Past performance is no guarantee of future returns. High-Yield Savings Account (HYSA) APYs are variable and subject to change without notice based on Federal Reserve benchmark adjustments. Always consult with a licensed fiduciary financial planner and certified public accountant (CPA) before making financial decisions.
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom-row">
+        <div>
+          &copy; 2026 WealthHorizon Media Group LLC. All rights reserved.
+        </div>
+        <div class="footer-legal-links">
+          <a href="#" class="smartlink-cta">Privacy Policy</a>
+          <a href="#" class="smartlink-cta">Terms of Service</a>
+          <a href="#" class="smartlink-cta">Affiliate &amp; Ad Disclosure</a>
+          <a href="#" id="footer-inspector-link">Ad Diagnostics</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       COMPOUND INTEREST CALCULATOR INTERACTIVE LOGIC SCRIPT
+       ======================================================================== -->
+  <script>
+    (function initCalculatorEngine() {
+      // DOM Elements
+      const inputPrincipal = document.getElementById("input-principal");
+      const inputMonthly = document.getElementById("input-monthly");
+      const inputRate = document.getElementById("input-rate");
+      const inputYears = document.getElementById("input-years");
+      const inputFrequency = document.getElementById("input-frequency");
+
+      const displayPrincipal = document.getElementById("display-principal");
+      const displayMonthly = document.getElementById("display-monthly");
+      const displayRate = document.getElementById("display-rate");
+      const displayYears = document.getElementById("display-years");
+
+      const calcFinalBalance = document.getElementById("calc-final-balance");
+      const calcTotalDeposits = document.getElementById("calc-total-deposits");
+      const calcTotalInterest = document.getElementById("calc-total-interest");
+      const calcSummaryStat = document.getElementById("calc-summary-stat");
+      const heroDisplayBalance = document.getElementById("hero-display-balance");
+
+      const canvas = document.getElementById("compound-chart-canvas");
+      const tableBody = document.getElementById("amortization-table-body");
+      const toggleTableBtn = document.getElementById("toggle-table-btn");
+      const tableWrap = document.getElementById("amortization-table-wrap");
+      const tableArrow = document.getElementById("table-arrow-icon");
+
+      const presetButtons = document.querySelectorAll(".preset-btn");
+
+      // Format currency helper
+      function formatMoney(amount) {
+        return "$" + Math.round(amount).toLocaleString("en-US");
+      }
+
+      // Calculation Engine
+      function calculateCompoundInterest() {
+        const principal = parseFloat(inputPrincipal.value) || 0;
+        const monthly = parseFloat(inputMonthly.value) || 0;
+        const annualRate = (parseFloat(inputRate.value) || 0) / 100;
+        const years = parseInt(inputYears.value, 10) || 1;
+        const compoundFreq = parseInt(inputFrequency.value, 10) || 12;
+
+        // Update displays
+        displayPrincipal.textContent = formatMoney(principal);
+        displayMonthly.textContent = formatMoney(monthly) + "/mo";
+        displayRate.textContent = (annualRate * 100).toFixed(1) + "%";
+        displayYears.textContent = years + (years === 1 ? " Year" : " Years");
+
+        // Yearly data points for chart and table
+        const yearlyData = [];
+        let runningBalance = principal;
+        let cumulativeDeposits = principal;
+
+        // Accurate month-by-month compounding simulation
+        const totalMonths = years * 12;
+        const monthlyRate = Math.pow(1 + annualRate / compoundFreq, compoundFreq / 12) - 1;
+
+        for (let m = 1; m <= totalMonths; m++) {
+          runningBalance += monthly;
+          cumulativeDeposits += monthly;
+          runningBalance *= (1 + monthlyRate);
+
+          if (m % 12 === 0) {
+            const yr = m / 12;
+            const interestThisYear = runningBalance - cumulativeDeposits - (yr > 1 ? (yearlyData[yr - 2].balance - yearlyData[yr - 2].deposits) : 0);
+            yearlyData.push({
+              year: yr,
+              annualDeposits: monthly * 12,
+              deposits: cumulativeDeposits,
+              interestThisYear: interestThisYear,
+              balance: runningBalance,
+              totalInterest: runningBalance - cumulativeDeposits
+            });
+          }
+        }
+
+        const totalInterest = runningBalance - cumulativeDeposits;
+        const factor = cumulativeDeposits > 0 ? (runningBalance / cumulativeDeposits).toFixed(2) : "1.00";
+
+        // Update UI
+        calcFinalBalance.textContent = formatMoney(runningBalance);
+        calcTotalDeposits.textContent = formatMoney(cumulativeDeposits);
+        calcTotalInterest.textContent = formatMoney(totalInterest);
+
+        if (heroDisplayBalance) {
+          heroDisplayBalance.textContent = formatMoney(runningBalance);
+        }
+
+        if (calcSummaryStat) {
+          calcSummaryStat.innerHTML = `
+            <span class="live-pulse"></span>
+            <span>Growth multiplier: <strong>${factor}x</strong> your total out-of-pocket deposits</span>
+          `;
+        }
+
+        // Render Chart on HTML5 Canvas
+        drawCompoundChart(yearlyData, principal);
+
+        // Populate Amortization Table
+        populateTable(yearlyData);
+      }
+
+      function drawCompoundChart(data, initialPrincipal) {
+        if (!canvas) return;
+        const ctx = canvas.getContext("2d");
+        const w = canvas.width;
+        const h = canvas.height;
+
+        ctx.clearRect(0, 0, w, h);
+
+        const padding = { top: 20, right: 20, bottom: 30, left: 20 };
+        const chartW = w - padding.left - padding.right;
+        const chartH = h - padding.top - padding.bottom;
+
+        const maxVal = data.length > 0 ? data[data.length - 1].balance : 1000;
+
+        // Draw horizontal grid lines
+        ctx.strokeStyle = "rgba(255, 255, 255, 0.08)";
+        ctx.lineWidth = 1;
+        const gridSteps = 4;
+        for (let i = 0; i <= gridSteps; i++) {
+          const y = padding.top + (chartH / gridSteps) * i;
+          ctx.beginPath();
+          ctx.moveTo(padding.left, y);
+          ctx.lineTo(w - padding.right, y);
+          ctx.stroke();
+        }
+
+        if (data.length === 0) return;
+
+        // Helper to map values
+        const getX = (idx) => padding.left + (idx / data.length) * chartW;
+        const getY = (val) => padding.top + chartH - (val / maxVal) * chartH;
+
+        // 1. Draw Total Deposits Area & Line (Sky Blue)
+        ctx.beginPath();
+        ctx.moveTo(padding.left, getY(initialPrincipal));
+        data.forEach((pt, idx) => {
+          ctx.lineTo(getX(idx + 1), getY(pt.deposits));
+        });
+        ctx.lineTo(w - padding.right, padding.top + chartH);
+        ctx.lineTo(padding.left, padding.top + chartH);
+        ctx.closePath();
+        ctx.fillStyle = "rgba(56, 189, 248, 0.12)";
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.moveTo(padding.left, getY(initialPrincipal));
+        data.forEach((pt, idx) => {
+          ctx.lineTo(getX(idx + 1), getY(pt.deposits));
+        });
+        ctx.strokeStyle = "#38bdf8";
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        // 2. Draw Total Balance Area & Line (Emerald Green)
+        ctx.beginPath();
+        ctx.moveTo(padding.left, getY(initialPrincipal));
+        data.forEach((pt, idx) => {
+          ctx.lineTo(getX(idx + 1), getY(pt.balance));
+        });
+        ctx.lineTo(w - padding.right, padding.top + chartH);
+        ctx.lineTo(padding.left, padding.top + chartH);
+        ctx.closePath();
+        const grad = ctx.createLinearGradient(0, padding.top, 0, h);
+        grad.addColorStop(0, "rgba(16, 185, 129, 0.35)");
+        grad.addColorStop(1, "rgba(16, 185, 129, 0.02)");
+        ctx.fillStyle = grad;
+        ctx.fill();
+
+        ctx.beginPath();
+        ctx.moveTo(padding.left, getY(initialPrincipal));
+        data.forEach((pt, idx) => {
+          ctx.lineTo(getX(idx + 1), getY(pt.balance));
+        });
+        ctx.strokeStyle = "#10b981";
+        ctx.lineWidth = 3;
+        ctx.stroke();
+
+        // Highlighting final point
+        const finalX = w - padding.right;
+        const finalY = getY(data[data.length - 1].balance);
+        ctx.fillStyle = "#f59e0b";
+        ctx.beginPath();
+        ctx.arc(finalX, finalY, 5, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.strokeStyle = "#ffffff";
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        // Baseline X-axis labels
+        ctx.fillStyle = "rgba(255, 255, 255, 0.5)";
+        ctx.font = "10px Inter, sans-serif";
+        ctx.fillText("Year 0", padding.left, h - 10);
+        ctx.fillText(`Year ${data.length}`, w - padding.right - 35, h - 10);
+      }
+
+      function populateTable(data) {
+        if (!tableBody) return;
+        tableBody.innerHTML = "";
+        data.forEach((row) => {
+          const tr = document.createElement("tr");
+          tr.innerHTML = `
+            <td>Year ${row.year}</td>
+            <td>${formatMoney(row.annualDeposits)}</td>
+            <td>${formatMoney(row.deposits)}</td>
+            <td style="color: var(--emerald-600); font-weight: 600;">+${formatMoney(row.interestThisYear)}</td>
+            <td style="font-weight: 700; color: var(--navy-900);">${formatMoney(row.balance)}</td>
+          `;
+          tableBody.appendChild(tr);
+        });
+      }
+
+      // Event listeners for inputs
+      [inputPrincipal, inputMonthly, inputRate, inputYears, inputFrequency].forEach((el) => {
+        if (el) {
+          el.addEventListener("input", calculateCompoundInterest);
+        }
+      });
+
+      // Rate preset buttons
+      presetButtons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          presetButtons.forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+          inputRate.value = btn.dataset.rate;
+          calculateCompoundInterest();
+        });
+      });
+
+      // Toggle amortization table
+      if (toggleTableBtn && tableWrap) {
+        toggleTableBtn.addEventListener("click", () => {
+          const isShown = tableWrap.style.display === "block";
+          tableWrap.style.display = isShown ? "none" : "block";
+          tableArrow.textContent = isShown ? "▼" : "▲";
+        });
+      }
+
+      // Mobile Menu Toggle
+      const mobileBtn = document.getElementById("mobile-menu-btn");
+      const navMenu = document.getElementById("primary-nav-menu");
+      if (mobileBtn && navMenu) {
+        mobileBtn.addEventListener("click", () => {
+          navMenu.classList.toggle("mobile-open");
+        });
+      }
+
+      // Monetization Hub inspector trigger in ticker & footer
+      const tickerMonetizationBtn = document.getElementById("ticker-monetization-btn");
+      const footerInspectorLink = document.getElementById("footer-inspector-link");
+      const openInspector = (e) => {
+        e.preventDefault();
+        if (window.wealthHorizonAds) {
+          window.wealthHorizonAds.openInspectorModal();
+        }
+      };
+
+      if (tickerMonetizationBtn) tickerMonetizationBtn.addEventListener("click", openInspector);
+      if (footerInspectorLink) footerInspectorLink.addEventListener("click", openInspector);
+
+      // Initial run
+      calculateCompoundInterest();
+    })();
+  </script>
+</body>
+</html>

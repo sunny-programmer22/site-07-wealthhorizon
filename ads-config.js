@@ -1,4 +1,4 @@
-/**
+﻿/**
  * ==============================================================================
  * WealthHorizon - HilltopAds Monetization Configuration & Integration Script
  * ==============================================================================
@@ -48,9 +48,9 @@ const HILLTOP_ADS_CONFIG = {
     zoneId: "YOUR_IPP_ZONE_ID", // e.g. "892013"
     scriptUrl: "https://example-hilltopads-cdn.com/ipp-multitag.js",
     position: "bottom-right", // "bottom-right" or "bottom-left"
-    demoTitle: "📈 High-Yield Alert: 5.25% APY",
+    demoTitle: "ðŸ“ˆ High-Yield Alert: 5.25% APY",
     demoMessage: "Top Federal FDIC-insured accounts just raised rates. Calculate your passive monthly yield now.",
-    demoIcon: "💰",
+    demoIcon: "ðŸ’°",
     demoTime: "Just now",
     autoShowDelayMs: 3000
   },
@@ -123,7 +123,7 @@ const HILLTOP_ADS_CONFIG = {
   zone6_videoVAST: {
     enabled: true,
     zoneId: "YOUR_VAST_ZONE_ID", // e.g. "502391"
-    vastTagUrl: "https://hilltopads.com/vast?zone=YOUR_VAST_ZONE_ID", // Replace with HilltopAds VAST Tag URL
+    vastTagUrl: "https://faithfuloccasion.com/dumgF/z.d/GKNwvtZtG/UC/ge/mQ9KuHZBU-lwkjP/T_ce1QNsD/Qs5vMVD/UntRNDznUJ0xNnDtkPwBOgQe", // Replace with HilltopAds VAST Tag URL
     videoPlayerId: "fin-masterclass-video",
     adOverlayId: "vast-ad-overlay",
     durationSeconds: 6,
@@ -304,7 +304,7 @@ class HilltopAdsManager {
             <div class="ad-label-tag">HilltopAds MultiTag Banner (Zone 3: 728x90 Leaderboard)</div>
             <div class="banner-creative banner-creative-header">
               <div class="banner-sponsor">
-                <span class="sponsor-logo">⚡</span>
+                <span class="sponsor-logo">âš¡</span>
                 <div>
                   <div class="sponsor-brand">${bannerCfg.demoSponsor}</div>
                   <div class="sponsor-tagline">Award-Winning FinTech Platform</div>
@@ -327,7 +327,7 @@ class HilltopAdsManager {
             <div class="ad-label-tag">HilltopAds MultiTag Banner (Zone 3: 300x250 Sidebar)</div>
             <div class="banner-creative banner-creative-sidebar">
               <div class="sidebar-ad-badge">Passive Income Spotlight</div>
-              <div class="sidebar-ad-icon">🏢</div>
+              <div class="sidebar-ad-icon">ðŸ¢</div>
               <h4 class="sidebar-ad-title">${bannerCfg.demoHeadline}</h4>
               <p class="sidebar-ad-desc">Diversify beyond volatile public equities. Institutional commercial real estate yields paid monthly.</p>
               <div class="sidebar-ad-stats">
@@ -746,7 +746,7 @@ class HilltopAdsManager {
       <div class="config-modal">
         <div class="config-modal-header">
           <div class="modal-title-wrap">
-            <span class="gold-icon">💰</span>
+            <span class="gold-icon">ðŸ’°</span>
             <h3>WealthHorizon &bull; HilltopAds Monetization Suite</h3>
           </div>
           <button class="config-modal-close" id="close-modal-btn">&times;</button>
@@ -755,7 +755,7 @@ class HilltopAdsManager {
           <div class="status-summary-bar">
             <div class="summary-item">
               <span class="lbl">Current Mode:</span>
-              <span class="val val-highlight">${this.config.isDemoMode ? "🟡 Demo / Simulation Mode" : "🟢 Live Production Mode"}</span>
+              <span class="val val-highlight">${this.config.isDemoMode ? "ðŸŸ¡ Demo / Simulation Mode" : "ðŸŸ¢ Live Production Mode"}</span>
             </div>
             <div class="summary-item">
               <span class="lbl">Zones Wired:</span>
@@ -867,3 +867,4 @@ document.addEventListener("DOMContentLoaded", () => {
   window.wealthHorizonAds = new HilltopAdsManager(HILLTOP_ADS_CONFIG);
   window.wealthHorizonAds.init();
 });
+
